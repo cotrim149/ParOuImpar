@@ -19,6 +19,8 @@
 		9F58D9AC192E82B200863FA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F58D994192E82B200863FA9 /* UIKit.framework */; };
 		9F58D9B4192E82B200863FA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9B2192E82B200863FA9 /* InfoPlist.strings */; };
 		9F58D9B6192E82B200863FA9 /* ParOuImparTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D9B5192E82B200863FA9 /* ParOuImparTests.m */; };
+		9F58D9C2192E82DD00863FA9 /* VCLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D9C0192E82DD00863FA9 /* VCLViewController.m */; };
+		9F58D9C3192E82DD00863FA9 /* VCLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9C1192E82DD00863FA9 /* VCLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		9F58D9B1192E82B200863FA9 /* ParOuImparTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParOuImparTests-Info.plist"; sourceTree = "<group>"; };
 		9F58D9B3192E82B200863FA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F58D9B5192E82B200863FA9 /* ParOuImparTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParOuImparTests.m; sourceTree = "<group>"; };
+		9F58D9BF192E82DD00863FA9 /* VCLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLViewController.h; sourceTree = "<group>"; };
+		9F58D9C0192E82DD00863FA9 /* VCLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLViewController.m; sourceTree = "<group>"; };
+		9F58D9C1192E82DD00863FA9 /* VCLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		9F58D984192E82B200863FA9 = {
 			isa = PBXGroup;
 			children = (
+				9F58D9BF192E82DD00863FA9 /* VCLViewController.h */,
+				9F58D9C0192E82DD00863FA9 /* VCLViewController.m */,
+				9F58D9C1192E82DD00863FA9 /* VCLViewController.xib */,
 				9F58D996192E82B200863FA9 /* ParOuImpar */,
 				9F58D9AF192E82B200863FA9 /* ParOuImparTests */,
 				9F58D98F192E82B200863FA9 /* Frameworks */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F58D99B192E82B200863FA9 /* InfoPlist.strings in Resources */,
+				9F58D9C3192E82DD00863FA9 /* VCLViewController.xib in Resources */,
 				9F58D9A3192E82B200863FA9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F58D9C2192E82DD00863FA9 /* VCLViewController.m in Sources */,
 				9F58D9A1192E82B200863FA9 /* VCLAppDelegate.m in Sources */,
 				9F58D99D192E82B200863FA9 /* main.m in Sources */,
 			);
