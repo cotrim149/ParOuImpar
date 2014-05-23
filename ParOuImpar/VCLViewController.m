@@ -7,6 +7,7 @@
 //
 
 #import "VCLViewController.h"
+#import "VCLJogo.h"
 
 @interface VCLViewController ()
 
@@ -14,11 +15,14 @@
 
 @implementation VCLViewController
 
+static VCLViewController *controller = nil;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.numbers = [[NSArray alloc] initWithObjects:@"0",@"1",@"2",@"3",@"4",@"5", nil];
+        
     }
     return self;
 }
@@ -26,6 +30,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self defaultObject];
+    [self defaultObject].escolhaJogador=2;
     
 }
 
@@ -48,45 +54,54 @@
 }
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
+    
     switch (row) {
         case 0:
-            NSLog(@"0");
+            [self defaultObject].numeroJogador = 0;
             break;
         case 1:
-            NSLog(@"01");
+            [self defaultObject].numeroJogador = 1;
             break;
         case 2:
-            NSLog(@"02");
+            [self defaultObject].numeroJogador = 2;
             break;
         case 3:
-            NSLog(@"03");
+            [self defaultObject].numeroJogador = 3;
             break;
         case 4:
-            NSLog(@"04");
+            [self defaultObject].numeroJogador = 4;
             break;
         case 5:
-            NSLog(@"05");
+            [self defaultObject].numeroJogador = 5;
             break;
             
         default:
+            [self defaultObject].numeroJogador = 0;
             break;
     }
 }
 
 -(IBAction)selectSegment:(id)sender{
     UISegmentedControl *segmented = (UISegmentedControl*)sender;
-    
     if(segmented.selectedSegmentIndex == 0){
-        NSLog(@"Par");
+        [self defaultObject].escolhaJogador = 2;
     }
     if(segmented.selectedSegmentIndex == 1){
-        NSLog(@"Impar");
+        [self defaultObject].escolhaJogador = 1;
     }
     
 }
 
 -(IBAction)clickPlay:(id)sender{
-    NSLog(@"PLAY");
+    VCLJogo *telaJogo = [[VCLJogo alloc]init];
+    [self presentViewController:telaJogo animated:NO completion:nil];
+}
+
+-(VCLViewController*)defaultObject{
+    if(controller == nil){
+        controller = [[VCLViewController alloc] init];
+    }
+    return  controller;
 }
 
 @end

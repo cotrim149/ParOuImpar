@@ -8,6 +8,7 @@
 
 #import "VCLAppDelegate.h"
 #import "VCLViewController.h"
+#import "VCLJogo.h"
 
 @implementation VCLAppDelegate
 
@@ -15,8 +16,29 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+//    CGRect screenRect = self.window.bounds;
+//    CGRect bigRect = screenRect;
+//    bigRect.size.width *= 2;
+//    
+//    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:screenRect];
+//    scroll.pagingEnabled=YES;
+//    scroll.contentSize = bigRect.size;
+//    [self.window addSubview:scroll];
+//    
     VCLViewController *controller = [[VCLViewController alloc] init];
     [self.window setRootViewController:controller];
+//
+//    [scroll addSubview:controller.view];
+//        
+//    VCLJogo *telaJogo = [[VCLJogo alloc] init];
+//    
+//    UIView *jogo = [[UIView alloc] initWithFrame:CGRectMake(self.window.bounds.size.width, 0, self.window.bounds.size.width, self.window.bounds.size.height)];
+//    
+//    jogo.backgroundColor = [UIColor blackColor];
+//    
+//    [jogo addSubview:telaJogo.view];
+//    
+//    [scroll addSubview:jogo];
     
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

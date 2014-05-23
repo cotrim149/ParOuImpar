@@ -13,7 +13,10 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmented;
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 @property (nonatomic)NSArray *numbers;
+@property (nonatomic)int numeroJogador;
+@property (nonatomic)int escolhaJogador;
 
 -(IBAction)selectSegment:(id)sender;
 -(IBAction)clickPlay:(id)sender;
+-(VCLViewController*)defaultObject;
 @end
