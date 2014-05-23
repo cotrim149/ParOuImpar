@@ -23,6 +23,12 @@
 		9F58D9C3192E82DD00863FA9 /* VCLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9C1192E82DD00863FA9 /* VCLViewController.xib */; };
 		9F58D9CF192E9B7C00863FA9 /* VCLJogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58D9CD192E9B7C00863FA9 /* VCLJogo.m */; };
 		9F58D9D0192E9B7C00863FA9 /* VCLJogo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9CE192E9B7C00863FA9 /* VCLJogo.xib */; };
+		9F58D9D7192FCC9E00863FA9 /* finger_0_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9D1192FCC9E00863FA9 /* finger_0_hand.jpg */; };
+		9F58D9D8192FCC9E00863FA9 /* 1_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9D2192FCC9E00863FA9 /* 1_hand.jpg */; };
+		9F58D9D9192FCC9E00863FA9 /* 2_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9D3192FCC9E00863FA9 /* 2_hand.jpg */; };
+		9F58D9DA192FCC9E00863FA9 /* 3_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9D4192FCC9E00863FA9 /* 3_hand.jpg */; };
+		9F58D9DB192FCC9E00863FA9 /* 4_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9D5192FCC9E00863FA9 /* 4_hand.jpg */; };
+		9F58D9DC192FCC9E00863FA9 /* 5_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F58D9D6192FCC9E00863FA9 /* 5_hand.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,12 @@
 		9F58D9CC192E9B7C00863FA9 /* VCLJogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLJogo.h; sourceTree = "<group>"; };
 		9F58D9CD192E9B7C00863FA9 /* VCLJogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLJogo.m; sourceTree = "<group>"; };
 		9F58D9CE192E9B7C00863FA9 /* VCLJogo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCLJogo.xib; sourceTree = "<group>"; };
+		9F58D9D1192FCC9E00863FA9 /* finger_0_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finger_0_hand.jpg; sourceTree = "<group>"; };
+		9F58D9D2192FCC9E00863FA9 /* 1_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_hand.jpg; sourceTree = "<group>"; };
+		9F58D9D3192FCC9E00863FA9 /* 2_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_hand.jpg; sourceTree = "<group>"; };
+		9F58D9D4192FCC9E00863FA9 /* 3_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_hand.jpg; sourceTree = "<group>"; };
+		9F58D9D5192FCC9E00863FA9 /* 4_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_hand.jpg; sourceTree = "<group>"; };
+		9F58D9D6192FCC9E00863FA9 /* 5_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_hand.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,12 @@
 		9F58D984192E82B200863FA9 = {
 			isa = PBXGroup;
 			children = (
+				9F58D9D1192FCC9E00863FA9 /* finger_0_hand.jpg */,
+				9F58D9D2192FCC9E00863FA9 /* 1_hand.jpg */,
+				9F58D9D3192FCC9E00863FA9 /* 2_hand.jpg */,
+				9F58D9D4192FCC9E00863FA9 /* 3_hand.jpg */,
+				9F58D9D5192FCC9E00863FA9 /* 4_hand.jpg */,
+				9F58D9D6192FCC9E00863FA9 /* 5_hand.jpg */,
 				9F58D9CC192E9B7C00863FA9 /* VCLJogo.h */,
 				9F58D9CD192E9B7C00863FA9 /* VCLJogo.m */,
 				9F58D9CE192E9B7C00863FA9 /* VCLJogo.xib */,
@@ -236,9 +254,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F58D9D7192FCC9E00863FA9 /* finger_0_hand.jpg in Resources */,
 				9F58D9D0192E9B7C00863FA9 /* VCLJogo.xib in Resources */,
 				9F58D99B192E82B200863FA9 /* InfoPlist.strings in Resources */,
 				9F58D9C3192E82DD00863FA9 /* VCLViewController.xib in Resources */,
+				9F58D9DC192FCC9E00863FA9 /* 5_hand.jpg in Resources */,
+				9F58D9D9192FCC9E00863FA9 /* 2_hand.jpg in Resources */,
+				9F58D9D8192FCC9E00863FA9 /* 1_hand.jpg in Resources */,
+				9F58D9DB192FCC9E00863FA9 /* 4_hand.jpg in Resources */,
+				9F58D9DA192FCC9E00863FA9 /* 3_hand.jpg in Resources */,
 				9F58D9A3192E82B200863FA9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

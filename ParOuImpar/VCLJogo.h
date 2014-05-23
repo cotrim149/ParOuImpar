@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface VCLJogo : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *txtResultadoCPU;
-@property (weak, nonatomic) IBOutlet UILabel *txtResultadoJogador;
 @property (weak, nonatomic) IBOutlet UILabel *txtResultadoFinal;
+@property (nonatomic) IBOutlet UIImageView *imageCPU;
+@property (nonatomic) IBOutlet UIImageView *imageJogador;
 @property (nonatomic) int escolhaCPU;
 @property (nonatomic) int numeroCPU;
 @property (nonatomic) int valorFinal;
